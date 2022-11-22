@@ -1,0 +1,6 @@
+torch==1.13.0
+pandas==1.4.3
+torchtext==0.14.0
+transformers==4.24.0
+pytorch-lightning==1.8.2
+sentence-transformers==2.2.2
