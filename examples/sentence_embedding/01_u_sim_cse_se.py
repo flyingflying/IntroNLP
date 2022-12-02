@@ -35,7 +35,7 @@ if __name__ == '__main__':
     max_seq_length = 32
 
     # 模型保存的路径
-    model_save_path = os.path.join(utils.ROOT_DIR, "outputs/u_sim_cse_se")
+    model_save_path = os.path.join(utils.ROOT_DIR, "./examples/sentence_embedding/outputs/u_sim_cse_se")
 
     # 初始化模型
     word_embedding_model = models.Transformer(model_name, max_seq_length=max_seq_length)

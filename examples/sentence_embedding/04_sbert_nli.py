@@ -245,7 +245,7 @@ if __name__ == '__main__':
 
     import shutil
 
-    output_dir = os.path.join(utils.ROOT_DIR, "outputs/sbert_nli")
+    output_dir = os.path.join(utils.ROOT_DIR, "./examples/sentence_embedding/outputs/sbert_nli")
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
 

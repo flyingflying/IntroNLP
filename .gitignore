@@ -133,3 +133,9 @@ dmypy.json
 
 # cache
 *cache*
+datasets/sentence_embeddings/
+datasets/relation_extraction/
+datasets/du_reader_retrieval/
+working/
+applications/
+hubs/*.pt

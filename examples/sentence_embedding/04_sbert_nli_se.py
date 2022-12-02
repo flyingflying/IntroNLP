@@ -33,7 +33,7 @@ if __name__ == '__main__':
     num_epochs = 1
     model_name = 'hfl/chinese-roberta-wwm-ext'
     train_batch_size = 16
-    model_save_path = os.path.join(utils.DATA_DIR, "outputs", "sbert_nli_se")
+    model_save_path = os.path.join(utils.ROOT_DIR, "./examples/sentence_embedding/outputs/sbert_nli_se")
 
     # model
     word_embedding_model = models.Transformer(model_name)

@@ -37,6 +37,8 @@ export HF_DATASETS_CACHE=""
   + [supervised SimCSE](examples/sentence_embedding/02_s_sim_cse.py)
 + [ESimCSE: Enhanced Sample Building Method for Contrastive Learning of Unsupervised Sentence Embedding](https://arxiv.org/pdf/2109.04380.pdf)
   + [ESimCSE](examples/sentence_embedding/03_e_sim_cse.py)
++ [RocketQA 系列文章](https://github.com/PaddlePaddle/RocketQA)
+  + [RocketQA, PAIR, RocketQA V2](examples/RocketQA/README.md)
 
 ### 目前完成的笔记
 

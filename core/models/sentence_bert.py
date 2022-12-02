@@ -89,7 +89,7 @@ class SentenceBertModel(BaseModel):
         if output_hidden_states is None:
             output_hidden_states = self.config.output_hidden_states
         if return_dict is None:
-            return_dict = self.config.return_dict
+            return_dict = self.config.use_return_dict
 
         # step2: 准备 attention_mask 和 head_mask 参数
         if attention_mask is None:

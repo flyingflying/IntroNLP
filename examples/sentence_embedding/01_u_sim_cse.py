@@ -336,7 +336,7 @@ if __name__ == '__main__':
 
     import shutil
 
-    output_dir = os.path.join(utils.ROOT_DIR, "outputs/u_sim_cse")
+    output_dir = os.path.join(utils.ROOT_DIR, "./examples/sentence_embedding/outputs/u_sim_cse")
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
 
