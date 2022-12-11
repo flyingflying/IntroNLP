@@ -87,7 +87,7 @@ class DualEncoder(LightningModule):
             int_type="int16")
 
     def setup(self, stage: str) -> None:
-        """ 处理和加载数据, 使用 DDP 时这个函数每一个进行都会调用一次 """
+        """ 处理和加载数据, 使用 DDP 时这个函数每一个进程都会调用一次 """
         import datasets as hf_datasets
         self.drr_hf_dual_train_dataset = hf_datasets.Dataset.load_from_disk(self.hf_data_dir)
 
