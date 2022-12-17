@@ -1,5 +1,7 @@
 
-### CasRel PyTorch re-implementation
+# CasRel PyTorch re-implementation
+
+### Overview
 
 CasRel 是苏剑林大神和吉林大学一起发表的 **三元组** 关系抽取方案。相关的资源信息如下:
 
@@ -9,6 +11,8 @@ CasRel 是苏剑林大神和吉林大学一起发表的 **三元组** 关系抽�
 + GitHub 地址: https://github.com/weizhepei/CasRel
 + 苏剑林博客: https://kexue.fm/archives/6671
 + bert4keras 实现: https://github.com/bojone/bert4keras/blob/master/examples/task_relation_extraction.py
+
+### Experiments
 
 本实验的复现主要参考 [@Onion12138](https://github.com/Onion12138/CasRelPyTorch) 的代码和 bert4keras 中的代码, 感谢大佬们的开源 !!!
 

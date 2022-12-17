@@ -7,3 +7,8 @@ sentence-transformers==2.2.2
 numpy==1.23.0
 datasets==2.7.0
 scipy==1.8.1
+faiss==1.7.2
+tqdm~=4.64.0
+scikit-learn==1.1.1
+joblib>=1.1.0
+seqeval==1.2.2

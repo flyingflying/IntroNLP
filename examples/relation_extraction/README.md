@@ -1,16 +1,17 @@
 
 ### Relation Extraction 关系抽取
 
-中文相关的数据集:
-+ https://zhuanlan.zhihu.com/p/581554247
-+ 
+使用百度的 DuIE 2.0 数据集进行 **关系三元组抽取** 的实验。
 
-DuIE 2.0: https://www.luge.ai/#/luge/dataDetail?id=5
+在 DuIE 2.0 中, 一共有 48 个关系标签, 我筛选掉训练集中样本数量低于 1000 的关系标签, 这样还剩下 34 个标签。
 
-集成的算法:
-+ [CasRel](https://aclanthology.org/2020.acl-main.136/)
-+ PURE / PL-Marker
-+ TPLinker / TPLinker-plus
-+ GPLinker
-+ PRGC
-+ OneRel MRC
+DuIE 2.0 的项目地址在: [千言](https://www.luge.ai/#/luge/dataDetail?id=5) 平台上有, 更多内容参考项目地址。
+
+打算测试的算法有六个:
+
++ [x] CasRel
++ [ ] PURE / PL-Marker
++ [x] TPLinker
++ [ ] GPLinker
++ [ ] PRGC
++ [x] OneRel MRC

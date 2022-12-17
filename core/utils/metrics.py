@@ -10,6 +10,8 @@ from typing import *
 from abc import abstractmethod, ABC
 from dataclasses import dataclass
 
+from torch import Tensor
+
 __all__ = ["MetricsResult", "BasicMetrics"]
 
 
@@ -42,7 +44,7 @@ class BasicMetrics(ABC):
     counters: List[MetricsCounter]
 
     @abstractmethod
-    def add_batch(self, references: List[Any], predictions: List[Any], **kwargs):
+    def add_batch(self, references: Union[List[Any], Tensor], predictions: Union[List[Any], Tensor], **kwargs):
         raise NotImplementedError()
 
     @abstractmethod

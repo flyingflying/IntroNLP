@@ -7,7 +7,7 @@ from abc import ABC
 
 from torch.optim import Optimizer
 
-__all__ = ["LRScheduler", ]
+__all__ = ["LRScheduler", "SklearnMixin"]
 
 
 class LRScheduler(ABC):
@@ -26,3 +26,14 @@ class LRScheduler(ABC):
     def get_lr(self) -> float: raise NotImplementedError
     def step(self, epoch: int = None): raise NotImplementedError
     def print_lr(self, is_verbose: bool, group: dict, lr: float, epoch: int = None): raise NotImplementedError
+
+
+# noinspection PyPep8Naming
+class SklearnMixin(ABC):
+    """ sklearn 库的 API 风格, 其和 PEP 标准的命名风格是相互冲突的 """
+
+    def fit(self, X, y=None): raise NotImplementedError
+
+    def transform(self, X): raise NotImplementedError
+
+    def fit_transform(self, X, y=None, **fit_params): raise NotImplementedError

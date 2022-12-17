@@ -38,7 +38,13 @@ export HF_DATASETS_CACHE=""
 + [ESimCSE: Enhanced Sample Building Method for Contrastive Learning of Unsupervised Sentence Embedding](https://arxiv.org/pdf/2109.04380.pdf)
   + [ESimCSE](examples/sentence_embedding/03_e_sim_cse.py)
 + [RocketQA 系列文章](https://github.com/PaddlePaddle/RocketQA)
-  + [RocketQA, PAIR, RocketQA V2](examples/RocketQA/README.md)
+  + [RocketQA, PAIR, RocketQA V2](examples/RocketQA)
++ [A Novel Cascade Binary Tagging Framework for Relational Triple Extraction](https://aclanthology.org/2020.acl-main.136/)
+  + [CasRel](examples/relation_extraction/CasRel)
++ [TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking](https://arxiv.org/pdf/2010.13415.pdf)
+  + [TPLinker](examples/relation_extraction/TPLinker)
++ [OneRel: Joint Entity and Relation Extraction with One Module in One Step](https://arxiv.org/pdf/2203.05412.pdf)
+  + [OneRel](examples/relation_extraction/OneRel)
 
 ### 目前完成的笔记
 

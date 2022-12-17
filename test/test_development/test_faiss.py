@@ -28,6 +28,6 @@ if __name__ == '__main__':
 
     query_matrix = encoder(["今天天气真好", "哎, 世界末日要到了"])
     query_matrix = torch.nn.functional.normalize(query_matrix, p=2, dim=1)
-    print(engine.search(query_matrix.numpy().astype("float32"), 4))
+    print(engine.search(query_matrix.numpy().astype("float32"), 4))  # noqa
     # print(engine.search(encoder(["今天天气真好"])[0], 1))
     # faiss.write_index(engine, "./test_faiss.bin")

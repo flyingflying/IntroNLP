@@ -323,7 +323,7 @@ def check():
 
 if __name__ == '__main__':
     # 了解数据集的状况
-    statistics()
+    # statistics()
     # 检查代码的正确性
-    # check()
+    check()
     # init_hf_dataset("", debug=True)
