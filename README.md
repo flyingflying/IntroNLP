@@ -45,6 +45,11 @@ export HF_DATASETS_CACHE=""
   + [TPLinker](examples/relation_extraction/TPLinker)
 + [OneRel: Joint Entity and Relation Extraction with One Module in One Step](https://arxiv.org/pdf/2203.05412.pdf)
   + [OneRel](examples/relation_extraction/OneRel)
++ [PRGC: Potential Relation and Global Correspondence Based Joint Relational Triple Extraction](https://arxiv.org/pdf/2106.09895.pdf)
+  + [PRGC](examples/relation_extraction/PRGC)
++ [GPLinker：基于GlobalPointer的实体关系联合抽取](https://www.kexue.fm/archives/8888) & [GPLinker：基于GlobalPointer的事件联合抽取](https://www.kexue.fm/archives/8926)
+  + [Relation Extraction](examples/relation_extraction/GPLinker)
+  + [Event Extraction](examples/event_extraction/GPLinker)
 
 ### 目前完成的笔记
 

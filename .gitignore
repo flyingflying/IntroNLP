@@ -145,9 +145,10 @@ datasets/sentence_embeddings/
 datasets/relation_extraction/
 datasets/du_reader_retrieval/
 datasets/thu_cn_news/
+datasets/event_extraction
 
 # 没有开发完成的内容
 examples/topic_models
-examples/relation_extraction/PRGC
+examples/named_entity_recognition
 tools
 test/test_tools

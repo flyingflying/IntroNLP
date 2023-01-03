@@ -42,6 +42,7 @@ def multi_label_cross_entropy_loss_with_mask(logits, target, cal_mask):
     # ## step 4: 计算 loss 值
     loss = torch.logsumexp(target_logits, dim=-1) + torch.logsumexp(non_target_logits, dim=-1)  # [n_samples, ]
 
+    # 原版代码直接返回 loss.mean(), 我认为还是应该按照有效部分进行平均
     return torch.sum(loss) / torch.sum(cal_mask)
 
 
